@@ -38,7 +38,6 @@ function App() {
         <button onClick={toPage("create")} className='rounded-lg shadow-lg bg-yellow-300 m-2 p-1 text-sm font-medium'>Crear</button>
         <input class="w-64 h-10 pl-2 pr-8 rounded-l-full focus:outline-none m-2 p-1" type="text"  placeholder="Buscar..." />
       </header>
-
       {getContent()}
     </div>
   )
